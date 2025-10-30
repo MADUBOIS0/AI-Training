@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "1x5VhzfGJmrG1Zqf0q3//ouj4ihwcghXsF8piw15a1Hrq2RFGEBKRFIOxOqbGs0L9SMZrTqMuMRBljXd7+RFiw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Web\\ApiBoard.Web.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.Sqlite. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

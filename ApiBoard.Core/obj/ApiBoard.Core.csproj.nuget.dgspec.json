@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\ApiBoard.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\ApiBoard.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\ApiBoard.Core.csproj",
+        "projectName": "ApiBoard.Core",
+        "projectPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\ApiBoard.Core.csproj",
+        "packagesPath": "C:\\Users\\madubois\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\madubois\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

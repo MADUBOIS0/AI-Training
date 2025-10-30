@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "1QFAChECEIMqpEm9s4A+9ewsvkF1ARqpuKPkwo/FgwllOyxcib0mv067i2LctAN/5kkxW4zp1y+VXs8uG8znIQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Tests\\ApiBoard.Tests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package coverlet.collector with version (>= 6.0.0)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 3.0.3 ]",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NET.Test.Sdk with version (>= 17.8.0)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 16.11.0 ]",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package xunit. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "xunit",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package xunit.runner.visualstudio. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "xunit.runner.visualstudio",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "KMvFNIFJHUAuD/fYoI9FWp/EzvsODQEzBwws0ROQWUv9b6Lc0hX/PtNgR+tNtKiM/szX4zqx/4sAnjgB9Rt+jw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Infrastructure\\ApiBoard.Infrastructure.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.Design. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.Sqlite. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
