@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1QFAChECEIMqpEm9s4A+9ewsvkF1ARqpuKPkwo/FgwllOyxcib0mv067i2LctAN/5kkxW4zp1y+VXs8uG8znIQ==",
+  "dgSpecHash": "+pvkXHX8NNQ5AIbQoyFiC5E3N3ylylq1Ijg+riTyRTFA/VIIuOeEODWD07UNcazfRM91qsZjWM3HSfnxwk5xxg==",
   "success": false,
   "projectFilePath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Tests\\ApiBoard.Tests.csproj",
   "expectedPackageFiles": [],
@@ -26,6 +26,15 @@
     {
       "code": "NU1101",
       "level": "Error",
+      "message": "Unable to find package FluentAssertions. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "FluentAssertions",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
       "message": "Unable to find package xunit. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
       "libraryId": "xunit",
       "targetGraphs": [
@@ -37,6 +46,15 @@
       "level": "Error",
       "message": "Unable to find package xunit.runner.visualstudio. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
       "libraryId": "xunit.runner.visualstudio",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.Sqlite. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
       "targetGraphs": [
         "net8.0"
       ]

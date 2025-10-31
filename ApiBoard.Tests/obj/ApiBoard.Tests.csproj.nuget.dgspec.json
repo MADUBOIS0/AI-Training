@@ -4,14 +4,14 @@
     "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Tests\\ApiBoard.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Tests\\ApiBoard.Tests.csproj": {
+    "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\ApiBoard.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Tests\\ApiBoard.Tests.csproj",
-        "projectName": "ApiBoard.Tests",
-        "projectPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Tests\\ApiBoard.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\ApiBoard.Core.csproj",
+        "projectName": "ApiBoard.Core",
+        "projectPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\ApiBoard.Core.csproj",
         "packagesPath": "C:\\Users\\madubois\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Tests\\obj\\",
+        "outputPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\madubois\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,7 +43,152 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Infrastructure\\ApiBoard.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Infrastructure\\ApiBoard.Infrastructure.csproj",
+        "projectName": "ApiBoard.Infrastructure",
+        "projectPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Infrastructure\\ApiBoard.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\madubois\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\madubois\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\ApiBoard.Core.csproj": {
+                "projectPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\ApiBoard.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Tests\\ApiBoard.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Tests\\ApiBoard.Tests.csproj",
+        "projectName": "ApiBoard.Tests",
+        "projectPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Tests\\ApiBoard.Tests.csproj",
+        "packagesPath": "C:\\Users\\madubois\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\madubois\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\ApiBoard.Core.csproj": {
+                "projectPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Core\\ApiBoard.Core.csproj"
+              },
+              "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Infrastructure\\ApiBoard.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\madubois\\Documents\\Code\\Ai-Training Personal\\ApiBoard.Infrastructure\\ApiBoard.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
